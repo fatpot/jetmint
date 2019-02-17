@@ -1,2 +1,2 @@
 # jetmint
-hello word
+hello word!
