@@ -1,4 +1,5 @@
-# 1. 版本计划
+# 萤火空投dapp
+## 1. 版本计划
 版本|版本内容|
 :---:|:-|
 V1.0|用户可快照目标资产对空投资产进行持仓平均发放|
@@ -6,7 +7,7 @@ V1.1|添加快照时间与空投时间设定|
 V1.2|添加空投活动页<br>领取空投功能（1XYZ一次）|
 V1.3|添加空投白名单/黑名单<br>添加空投规则|
 
-# 2. V1.0版本内容
+## 2. V1.0版本内容
 ### 2.1 操作流程
 1.用户选择快照币种（币种调用用户账户资产，但不包括XLM）
 2.根据持仓用户数计算手续费(100XYZ/holder)
@@ -29,7 +30,7 @@ V1.3|添加空投白名单/黑名单<br>添加空投规则|
 6.空投
 
 
-## 2.2 函数
+### 2.2 函数
 #### 2.2.1 接口：查询持仓用户数，包含balance=0的
     调用范例：https://0.0.0.0/holderscount/?issueaddress=GACUHFTLPN47XYZMPPCFMCQQ...3RHE4FASFDZJPFHMBXYF&assetcode=XYF
  - param str issueaddress:GACUHFTLPN47XYZMPPCFMCQQ...3RHE4FASFDZJPFHMBXYF
